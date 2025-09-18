@@ -38,3 +38,21 @@ html e css: Cabeçalho, footer e variaveis css:
 05.Aplicando Variáveis CSS:
   ° 09 - para saber mais: dicas de projeto
 <!-- --------------------------------------->
+
+Unidade de medida:
+medidas absolutas: 
+medid as relativas: Existem diversas medidas relativas: em, ex, ch, rem, vw, vh, vmin, vmx e % (porcentagem).
+O MAIS INDICADO É O REM: é uma medida relativa que vai usar o root-element, que é o elemento raiz, ou seja, a página HTML. É o que a pessoa que está utilizando a página definiu no navegador.
+Nessa escala utiliza-se o valor mais recomendado pelos navegadores, que é de 16, então 16px equivale a 1rem e 32px equivale a 2rem.
+EXEMPLO:
+No código está marcado o tamanho da fonte como 36px, precisamos alterar para rem. E para converter os 36px, nós dividimos esse valor por 16px. Ao dividirmos 36 por 16, temos como resultado 2,25. Então 36px equivale a 2,25rem. Número quebrado, mas até o 0,25 é válido usar. Caso fosse um número como 2,1752, poderíamos arredondar.
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+
+Usando o crlt + f e digitando: Ex: font-size (assim fica mais fácil trocar as informações)
+
+Artigo sobre medidas (LER): https://www.alura.com.br/artigos/guia-de-unidades-no-css
+Ver a documentação: https://www.w3schools.com/cssref/css_units.php
