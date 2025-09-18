@@ -29,3 +29,12 @@ main: é o nome da branch principal (no seu caso, é mesmo main).
 Se você tiver feito alterações locais e ainda não comitou, o Git pode pedir que você resolva conflitos ou salve seu progresso antes de puxar as atualizações. Quer ajuda com isso também?
 
 Posso te mostrar como verificar o status do seu repositório ou como fazer um commit antes de puxar.
+
+
+
+
+<!-- Visualizar o exercício -->
+html e css: Cabeçalho, footer e variaveis css:
+05.Aplicando Variáveis CSS:
+  ° 09 - para saber mais: dicas de projeto
+<!-- --------------------------------------->
