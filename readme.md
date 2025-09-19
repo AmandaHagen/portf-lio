@@ -33,12 +33,6 @@ Se você tiver feito alterações locais e ainda não comitou, o Git pode pedir 
 Posso te mostrar como verificar o status do seu repositório ou como fazer um commit antes de puxar.
 
 
-
-
-<!-- Visualizar o exercício -->
-html e css: Cabeçalho, footer e variaveis css:
-05.Aplicando Variáveis CSS:
-  ° 09 - para saber mais: dicas de projeto
 <!-- --------------------------------------->
 
 Unidade de medida:
@@ -81,6 +75,8 @@ Podemos definir uma largura máxima de “480px” para o celular: @media (max-w
 
 Podemos também definir intervalos para os tamanhos de telas com um único media query, atribuímos o valor mínimo e depois o valor máximo separando ele pelo atributo and, veja: @media (min-width: 480px ) and (max-width: 800px), nesse caso os estilos serão aplicados em telas de no mínimo “480px” e de no máximo “800px”.
 
+Utilizar width: 100% dentro de um media query para telas menores é uma prática comum e eficaz para garantir que a seção "apresentação conteúdo" ocupe toda a largura disponível na tela, proporcionando uma melhor experiência em dispositivos móveis. Isso garante que o conteúdo se ajuste adequadamente, evitando quebras de layout e facilitando a leitura. Continue praticando e explorando as possibilidades do design responsivo!
+
 <!-- BREAK POINTS --> Pontos de quebra do layout, os famosos Break Points
 
 
@@ -98,4 +94,31 @@ https://www.alura.com.br/artigos/como-trabalhar-com-markdown aprender mais sobre
 https://github.com/vanessametonini/aluramidi-curso/blob/master/README.md Readme do projeto Alura Midi do curso de Javascript
 https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/blob/master/README.md Readme do projeto android com kotlin do curso de android
 
-https://portfolio-five-navy-93.vercel.app/
+lista de referências para você se aprofundar nos estudos, aprimorar seus conhecimentos e adquirir novas habilidades.
+https://www.alura.com.br/artigos/guia-de-unidades-no-css oferece um guia completo sobre as unidades de medida no CSS
+https://dev.to/lixeletto/entendendo-unidades-css-e-quando-utiliza-las-3ecc oferece uma visão ampla sobre unidades absolutas e relativas no CSS, explicando como elas funcionam e em quais situações devem ser utilizadas para um design responsivo.
+https://dev.to/loresgarcia/unidades-de-medida-no-css-escolhendo-a-melhor-opcao-para-cada-caso-3jh9 discute como escolher a unidade de medida mais apropriada para cada situação no CSS, analisando unidades comuns como pixels, porcentagem, em, rem, vh e vw.
+https://dev.to/mbthales/pt-br-unidades-relativas-rem-e-em-4d8j  foca nas unidades relativas rem e em, explicando suas diferenças e importância para criar um design responsivo
+https://dev.to/gabrlcj/tecnica-para-voce-mudar-de-pixels-px-para-rem-2626 oferece uma explicação prática sobre como mudar de pixels para rem em CSS
+https://cursos.alura.com.br/forum/topico-importancia-das-unidades-relativas-em-e-rem-257614  discute a importância do uso de unidades relativas como "em" e "rem" para criar layouts responsivos
+https://www.origamid.com/projetos/flexbox-guia-completo/ Flexbox é uma técnica essencial no design responsivo
+https://www.casadocodigo.com.br/products/livro-web-mobile?_pos=1&_sid=295b6578a&_ss=r livro da Editora Casa do Código oferece uma visão teórica e prática sobre design responsivo. Abrange a adaptação de imagens, textos e outros elementos para diferentes tamanhos de tela.
+https://www.alura.com.br/podcast/tendencias-no-front-end-2022-hipsters-ponto-tech-286-a1368 discute tendências atuais e futuras do CSS e design responsivo, incluindo técnicas para adaptar elementos web a diferentes dispositivos.
+https://www.alura.com.br/artigos/css-guia-do-flexbox  fundamentos do CSS Flexbox para alinhamento e posicionamento
+https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/CSS_layout/Flexbox artigo do MDN detalha como o Flexbox provê ferramentas para a criação de layouts complexos e flexíveis, que eram historicamente desafiadores com o CSS.
+https://triangulo.dev/posts/guia-completo-flexbox/ guia explica que o Flexbox é um módulo do CSS criado para facilitar a vida de quem precisa criar layouts na web, controlando tamanho, alinhamento e distribuição de elementos.
+https://www.freecodecamp.org/portuguese/news/tutorial-de-media-queries-do-css-resolucoes-padrao-breakpoints-do-css-e-tamanhos-de-telefone/ Este artigo aborda o Design Responsivo na Web e o papel crucial das media queries do CSS neste contexto. 
+https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages guia abrangente sobre como hospedar um projeto usando o GitHub Pages. Ele explica os conceitos de hospedagem, o que é o GitHub Pages, e o processo passo a passo para colocar seu projeto no ar, incluindo informações sobre como trabalhar com arquivos HTML, CSS e JavaScript.
+https://docs.github.com/pt/get-started/start-your-journey/creating-an-account-on-github Este guia oficial do GitHub explica como criar uma conta pessoal gratuita no GitHub. Ele detalha os passos para se inscrever, verificar seu endereço de e-mail e oferece dicas para começar a explorar os conceitos básicos do GitHub, como repositórios, ramificações, commits e solicitações de pull. Também é recomendado configurar a autenticação de dois fatores (2FA) para segurança adicional.
+https://www.alura.com.br/artigos/criando-repositorio-remoto-github explica os fundamentos do GitHub, ensinando como criar e gerenciar repositórios. É uma leitura ideal para quem está começando e quer entender melhor como funcionam os repositórios no GitHub.
+https://www.alura.com.br/artigos/escrever-bom-readme Este artigo aborda os conceitos básicos do Markdown, a linguagem de formatação usada no GitHub para criar READMEs esteticamente agradáveis e informativos. É útil para quem deseja melhorar a apresentação dos seus projetos.
+
+
+<!-- https://portfolio-five-navy-93.vercel.app/ -->
+
+
+
+<!-- DEPLOY --> significa publicar seu site na internet, tornando-o acessível para qualquer pessoa através de um link. É o passo final de um projeto web: depois de escrever o código e testar localmente, você o envia para uma plataforma de hospedagem.
+
+
+
